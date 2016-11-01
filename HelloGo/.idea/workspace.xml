@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3beeb0f-17dd-4958-b0e9-601db60feb8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pointers.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/User defined types.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloGo.iws" />
@@ -53,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pointers.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pointers.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pointers.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30927834">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User defined types.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/User defined types.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6185567">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -71,6 +84,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -88,6 +102,8 @@
         <option value="$PROJECT_DIR$/Hello Go.go" />
         <option value="$PROJECT_DIR$/Variable declaration.go" />
         <option value="$PROJECT_DIR$/Pointers.go" />
+        <option value="$PROJECT_DIR$/Stuct.go" />
+        <option value="$PROJECT_DIR$/User defined types.go" />
       </list>
     </option>
   </component>
@@ -160,14 +176,14 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="configurable.Global.libraries.is.expanded" value="true" />
     <property name="configurable.Project.libraries.is.expanded" value="true" />
     <property name="configurable.Module.libraries.is.expanded" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GO_FMT" value="false" />
   </component>
-  <component name="RunManager" selected="Go Single File.go run Pointers.go">
+  <component name="RunManager" selected="Go Single File.go run User defined types.go">
     <configuration default="false" name="go run Hello Go.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="HelloGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -184,6 +200,12 @@
       <module name="HelloGo" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/Pointers.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run User defined types.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="HelloGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/User defined types.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -628,16 +650,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Hello Go.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Variable declaration.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Pointers.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run User defined types.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Pointers.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Variable declaration.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Hello Go.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run User defined types.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Pointers.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Variable declaration.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Hello Go.go" />
       </list>
     </recent_temporary>
   </component>
@@ -653,7 +677,7 @@
       <updated>1477939200308</updated>
       <workItem from="1477939206957" duration="892000" />
       <workItem from="1478013681335" duration="422000" />
-      <workItem from="1478014654793" duration="1104000" />
+      <workItem from="1478014654793" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="Variable declaration.">
       <created>1478014938345</created>
@@ -667,11 +691,17 @@
       <option name="project" value="LOCAL" />
       <updated>1478015241820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pointer basics.">
+      <created>1478015810819</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478015810819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2418000" />
+    <option name="totallyTimeSpent" value="2930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -716,7 +746,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variable declaration." />
     <MESSAGE value="Variable declaration - short way." />
-    <option name="LAST_COMMIT_MESSAGE" value="Variable declaration - short way." />
+    <MESSAGE value="Pointer basics." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pointer basics." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,8 +796,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pointers.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30927834">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User defined types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6185567">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
