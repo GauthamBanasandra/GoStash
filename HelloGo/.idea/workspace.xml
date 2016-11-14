@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3beeb0f-17dd-4958-b0e9-601db60feb8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Packages.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greeting/greeting.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/If statements.go" afterPath="$PROJECT_DIR$/If statements.go" />
     </list>
     <ignored path="HelloGo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,22 +41,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="If statements.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="If statements.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/If statements.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.18228279">
+              <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#14#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="greeting.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="greeting.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greeting/greeting.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2044293">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding>
                 <element signature="e#18#30#0" expanded="true" />
@@ -181,9 +179,9 @@
         <option value="$PROJECT_DIR$/Functions.go" />
         <option value="$PROJECT_DIR$/Closure.go" />
         <option value="$PROJECT_DIR$/Passing functions.go" />
-        <option value="$PROJECT_DIR$/If statements.go" />
         <option value="$PROJECT_DIR$/Packages.go" />
         <option value="$PROJECT_DIR$/greeting/greeting.go" />
+        <option value="$PROJECT_DIR$/If statements.go" />
       </list>
     </option>
   </component>
@@ -287,7 +285,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GO_FMT" value="false" />
   </component>
-  <component name="RunManager" selected="Go Single File.go run Packages.go">
+  <component name="RunManager" selected="Go Single File.go run If statements.go">
     <configuration default="false" name="go run Functions.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="HelloGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -769,8 +767,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Packages.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run If statements.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run If statements.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Packages.go" />
         <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Closure.go" />
         <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Passing functions.go" />
         <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Functions.go" />
@@ -793,7 +791,7 @@
       <workItem from="1478087468216" duration="2895000" />
       <workItem from="1478180674725" duration="100000" />
       <workItem from="1479053530578" duration="892000" />
-      <workItem from="1479135826212" duration="3512000" />
+      <workItem from="1479135826212" duration="4783000" />
     </task>
     <task id="LOCAL-00001" summary="Variable declaration.">
       <created>1478014938345</created>
@@ -837,11 +835,23 @@
       <option name="project" value="LOCAL" />
       <updated>1479144790402</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Packages.">
+      <created>1479145339647</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1479145339647</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Embedding if. Using else.">
+      <created>1479145616413</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479145616413</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11022000" />
+    <option name="totallyTimeSpent" value="12293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -854,7 +864,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19912472" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -890,7 +900,9 @@
     <MESSAGE value="User defined types." />
     <MESSAGE value="Functions - Basic, passing functions, closure." />
     <MESSAGE value="If statements." />
-    <option name="LAST_COMMIT_MESSAGE" value="If statements." />
+    <MESSAGE value="Packages." />
+    <MESSAGE value="Embedding if. Using else." />
+    <option name="LAST_COMMIT_MESSAGE" value="Embedding if. Using else." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1227,16 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/If statements.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pointers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1289,10 +1291,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/greeting/greeting.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2044293">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding>
             <element signature="e#18#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/If statements.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18228279">
+          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
