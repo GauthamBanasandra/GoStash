@@ -13,7 +13,15 @@ func greet4(salutation Salutation, do Printer, isFormal bool) {
 	if isFormal {
 		do(salutation.name)
 	}
-	do(salutation.greeting)
+
+	/* Embedding statements. The "prefix" is executed only once and its scope is confined to that line.
+	It's like the initialization done in a for loop.
+	 */
+	if prefix := "Mr. "; isFormal {
+		do(prefix + salutation.name)
+	} else {
+		do(salutation.greeting)
+	}
 }
 
 func CreatePrintFunction1(custom string) (Printer) {
