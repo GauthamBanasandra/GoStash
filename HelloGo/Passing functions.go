@@ -8,7 +8,7 @@ type Salutation struct {
 }
 
 /* Declaring function type. This is mainly done for re-use of the declaration.
-Syntax - type <name> func(<param type>) (<return type>). The empty brackets must be specified for void
+Syntax - type <name> func(<param type>) (<return type>). The empty brackets must be specified for void.
 */
 type Printer func(string) ()
 

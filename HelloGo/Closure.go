@@ -12,6 +12,7 @@ func greet3(salutation Salutation, do Printer) {
 	do(salutation.name)
 	do(salutation.greeting)
 }
+
 func CreatePrintFunction(custom string) (Printer) {
 	return func(s string) {
 		fmt.Println(s + custom)
