@@ -23,7 +23,14 @@ func GetPrefixMap(name string) (string) {
 
 	// Deleting an element.
 	//delete(prefixMap, "Mary")
+	// Depricated way is - prefixMap["Mary"]="", false
 
+	/* Checking for existence.
+	'exists' is a boolean variable. So, if it's true, it means that the key exists.
+	 */
+	if value, exists := prefixMap[name]; exists {
+		return value
+	}
 	/*// Declare a map in the following way where typeof key=string and typeof value=string.
 	var prefixMap map[string]string
 	// Need to call make, otherwise, can't use the map.
@@ -36,7 +43,7 @@ func GetPrefixMap(name string) (string) {
 	prefixMap["Count Belmonte"] = "Sir "
 	prefixMap["Mary"] = "Lady "*/
 
-	return prefixMap[name]
+	return "Dude "
 }
 
 func GreetMap(salutation []Salutation, print Printer) {
@@ -51,6 +58,7 @@ func main() {
 		{"Amy", "Hi"},
 		{"Count Belmonte", "Greetings"},
 		{"Mary", "Pleased to meet you"},
+		{"Van Helsing", "Good morning"},
 	}
 	GreetMap(slice, func(s string) {
 		fmt.Println(s)
