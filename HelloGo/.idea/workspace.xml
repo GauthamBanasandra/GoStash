@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3beeb0f-17dd-4958-b0e9-601db60feb8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slice.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Maps.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloGo.iws" />
@@ -53,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Slice.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Slice.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Slice.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7288136">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maps.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Maps.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44067797">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -73,16 +85,6 @@
               <folding>
                 <element signature="e#14#33#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Variable declaration.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Variable declaration.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -182,6 +184,7 @@
         <option value="$PROJECT_DIR$/Packages.go" />
         <option value="$PROJECT_DIR$/For loops.go" />
         <option value="$PROJECT_DIR$/Slice.go" />
+        <option value="$PROJECT_DIR$/Maps.go" />
       </list>
     </option>
   </component>
@@ -285,13 +288,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GO_FMT" value="false" />
   </component>
-  <component name="RunManager" selected="Go Single File.go run Slice.go">
-    <configuration default="false" name="go run Closure.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="HelloGo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Closure.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run Maps.go">
     <configuration default="false" name="go run If statements.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="HelloGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -314,6 +311,12 @@
       <module name="HelloGo" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/Slice.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run Maps.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="HelloGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Maps.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -759,19 +762,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Closure.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run If statements.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Packages.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run For loops.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Slice.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run If statements.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Packages.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run For loops.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Slice.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Maps.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Slice.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run For loops.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run If statements.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Packages.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Closure.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Maps.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Slice.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run For loops.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run If statements.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Packages.go" />
       </list>
     </recent_temporary>
   </component>
@@ -794,7 +797,7 @@
       <workItem from="1479135826212" duration="4828000" />
       <workItem from="1479230892260" duration="1335000" />
       <workItem from="1479232277276" duration="667000" />
-      <workItem from="1479296899751" duration="1828000" />
+      <workItem from="1479296899751" duration="3950000" />
     </task>
     <task id="LOCAL-00001" summary="Variable declaration.">
       <created>1478014938345</created>
@@ -874,11 +877,17 @@
       <option name="project" value="LOCAL" />
       <updated>1479297844130</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Using slices.">
+      <created>1479298775239</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1479298775239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16168000" />
+    <option name="totallyTimeSpent" value="18290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -932,23 +941,14 @@
     <MESSAGE value="Switch statements." />
     <MESSAGE value="Formatted User defined types." />
     <MESSAGE value="Basic for loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic for loop." />
+    <MESSAGE value="Using slices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using slices." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/If statements.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greeting/greeting.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1409,8 +1409,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Slice.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7288136">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maps.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44067797">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
