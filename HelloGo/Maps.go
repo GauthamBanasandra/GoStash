@@ -13,13 +13,17 @@ type Printer func(string) ()
 
 func GetPrefixMap(name string) (string) {
 	// Short hand maps.
-	prefixMap:=map[string]string{
+	prefixMap := map[string]string{
 		"Bob":"Mr ",
 		"Joe":"Dr ",
 		"Amy":"Dr ",
 		"Mary":"Lady ",
 		"Count Belmonte":"Sir ",
 	}
+
+	// Deleting an element.
+	//delete(prefixMap, "Mary")
+
 	/*// Declare a map in the following way where typeof key=string and typeof value=string.
 	var prefixMap map[string]string
 	// Need to call make, otherwise, can't use the map.
