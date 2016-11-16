@@ -14,4 +14,6 @@ func main() {
 		fmt.Println("loop number " + string(i))
 		i += 1
 	}
+
+	// Usage of break and continue is same as C.
 }
