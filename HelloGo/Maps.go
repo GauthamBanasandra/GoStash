@@ -12,7 +12,15 @@ type Salutation struct {
 type Printer func(string) ()
 
 func GetPrefixMap(name string) (string) {
-	// Declare a map in the following way where typeof key=string and typeof value=string.
+	// Short hand maps.
+	prefixMap:=map[string]string{
+		"Bob":"Mr ",
+		"Joe":"Dr ",
+		"Amy":"Dr ",
+		"Mary":"Lady ",
+		"Count Belmonte":"Sir ",
+	}
+	/*// Declare a map in the following way where typeof key=string and typeof value=string.
 	var prefixMap map[string]string
 	// Need to call make, otherwise, can't use the map.
 	prefixMap = make(map[string]string)
@@ -22,7 +30,7 @@ func GetPrefixMap(name string) (string) {
 	prefixMap["Joe"] = "Dr. "
 	prefixMap["Amy"] = "Dr. "
 	prefixMap["Count Belmonte"] = "Sir "
-	prefixMap["Mary"] = "Lady "
+	prefixMap["Mary"] = "Lady "*/
 
 	return prefixMap[name]
 }
