@@ -43,4 +43,7 @@ func main() {
 	s[2] = 3
 
 	fmt.Println(s)
+
+	// Slicing slices - just like python.
+	fmt.Println(s[:2])
 }
