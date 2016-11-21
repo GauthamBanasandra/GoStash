@@ -48,7 +48,11 @@ func main() {
 	fmt.Println(s[:2])
 
 	// Appending to a slice - append(prev_slice, new_element). Returns a new slice.
-	s=append(s, 5)
+	s = append(s, 5)
 	fmt.Println(s)
 
+	// Deleting an element from a slice.
+	// For example, deleting the 1st element i.e 2 in the slice 's'.
+	s = append(s[:1], s[2:]...)	// ... here enumerates the elements in the slice.
+	fmt.Println(s)
 }
