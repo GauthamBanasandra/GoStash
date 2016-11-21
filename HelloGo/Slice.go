@@ -46,4 +46,9 @@ func main() {
 
 	// Slicing slices - just like python.
 	fmt.Println(s[:2])
+
+	// Appending to a slice - append(prev_slice, new_element). Returns a new slice.
+	s=append(s, 5)
+	fmt.Println(s)
+
 }
