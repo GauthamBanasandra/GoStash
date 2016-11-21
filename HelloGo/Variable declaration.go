@@ -6,9 +6,11 @@ func main() {
 	var message string="hello go"
 	var a, b, c int
 
-	// Short way
+	// Short way.
 	x, y, z:=1, 2.5, 6
 
+	// Boolean.
+	x=true
 	fmt.Println(message, a, b, c)
 	fmt.Println(x, y, z)
 }
