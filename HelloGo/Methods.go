@@ -53,6 +53,17 @@ func (salutation *Salutation) Rename(newName string) {
 	salutation.name = newName
 }
 
+/*
+Implementing Write interface.
+*/
+func (salutation *Salutation) Write(p []byte) (n int, err error) {
+	s := string(p)
+	salutation.Rename(s)
+	n = len(s)
+	err = nil
+	return
+}
+
 func RenameToFrog(r Renamable) {
 	r.Rename("Frog")
 }
@@ -73,6 +84,12 @@ func main() {
 	Passing an address here because, RenameToFrog calls Rename, which accepts a pointer.
 	*/
 	RenameToFrog(&slice[2])
+
+	/*
+	Using the Writer interface.
+	Fprintf will handle your input if you implement the "Write" interface.
+	*/
+	fmt.Fprintf(&slice[1], "The count is %d", 10)
 
 	// Call the method on the variable
 	slice.GreetMethod(func(s string) {
