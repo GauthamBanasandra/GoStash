@@ -13,6 +13,14 @@ type Salutation struct {
 type Salutations []Salutation
 type Printer func(string) ()
 
+// Declare an interface in the following manner.
+type Renamable interface {
+	Rename(newName string)        /*
+				Salutation type has a method "Rename". Thus, Salutation type implements the
+				"Renamable" interface.
+				*/
+}
+
 func GetAddress(name string) (string) {
 	greetMap := map[string]string{
 		"Bob":"Mr. ",
@@ -28,13 +36,25 @@ func GetAddress(name string) (string) {
 }
 
 /*
-Declare a method by -
+Declare a method by the following format -
 func (type on which it should run) method_name (params)
 */
 func (salutations Salutations) GreetMethod(do Printer) {
 	for i, salutation := range salutations {
 		do(salutation.greeting + ", " + GetAddress(salutation.name) + " " + salutation.name + " you are " + strconv.Itoa(i + 1))
 	}
+}
+
+/* Pointer to a method.
+If the asterisk is not present, then 'salutation" is just a local copy.
+Thus, without the asterisk, changes will not be reflected in the calling parameter.
+*/
+func (salutation *Salutation) Rename(newName string) {
+	salutation.name = newName
+}
+
+func RenameToFrog(r Renamable) {
+	r.Rename("Frog")
 }
 
 func main() {
@@ -44,6 +64,15 @@ func main() {
 		{"Joe", "Hi"},
 		{"Mary", "What's up?"},
 	}
+
+	// Renaming Joe to Bob.
+	slice[1].Rename("Bob")
+
+	/*
+	Renaming using interface.
+	Passing an address here because, RenameToFrog calls Rename, which accepts a pointer.
+	*/
+	RenameToFrog(&slice[2])
 
 	// Call the method on the variable
 	slice.GreetMethod(func(s string) {
