@@ -51,7 +51,7 @@ func main() {
 	})*/
 
 	/* Creating a channel
-	channel_name := make(chan channel_type)
+	channel_name := make(chan channel_type, buffer_size)
 	Channel can pass data only of the channel_type.
 	*/
 	done := make(chan bool)
