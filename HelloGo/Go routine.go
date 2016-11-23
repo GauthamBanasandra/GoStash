@@ -46,11 +46,29 @@ func main() {
 	Put keyword 'go' in front of a function call to make it a go routine.
 	It's just that, the call is executed in a separate thread.
 	*/
-	go GreetSalutation(slice, func(s string) {
+	/*go GreetSalutation(slice, func(s string) {
 		fmt.Println(s + "!!")
-	})
-	fmt.Println()
+	})*/
+
+	/* Creating a channel
+	channel_name := make(chan channel_type)
+	Channel can pass data only of the channel_type.
+	*/
+	done := make(chan bool)
+	/*
+	Making this anonymous function wasn't necessary if GreetSalutation method was modified to
+	include done <- true.
+	*/
+	go func() {
+		GreetSalutation(slice, func(s string) {
+			fmt.Println(s + "!!")
+		})
+		// This is how we put the data into the channel.
+		done <- true
+	}()
 	GreetSalutation(slice, func(s string) {
 		fmt.Println(s + ":)")
 	})
+	// The line below means "Block until you read something from the 'done' channel".
+	<-done
 }
