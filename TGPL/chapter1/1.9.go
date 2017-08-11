@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"fmt"
 	"io"
+	"strings"
 )
 
 func main() {
@@ -14,11 +15,17 @@ func main() {
 	}
 
 	for _, url := range os.Args[1:] {
+		if !strings.HasPrefix(url, "http://") {
+			url = "http://" + url
+		}
+
 		resp, err := http.Get(url)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "fetch: %v\n", err)
 			os.Exit(1)
 		}
+
+		fmt.Fprintf(os.Stdout, "Fetching: %s\nStatus: %s\n", url, resp.Status)
 
 		_, err = io.Copy(os.Stdout, resp.Body)
 		if err != nil {
@@ -27,5 +34,6 @@ func main() {
 		}
 
 		resp.Body.Close()
+		fmt.Println(os.Stdout)
 	}
 }
